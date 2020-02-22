@@ -8,7 +8,7 @@ import (
 	"sort"
 	"testing"
 
-	"gopl.io/ch4/treesort"
+	"github.com/neo0801/gopl.io/ch4/treesort"
 )
 
 func TestSort(t *testing.T) {

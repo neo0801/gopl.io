@@ -10,11 +10,10 @@ import (
 	"log"
 	"os"
 
-	"gopl.io/ch4/github"
-)
+	"html/template"
 
-//!+template
-import "html/template"
+	"github.com/neo0801/gopl.io/ch4/github"
+)
 
 var issueList = template.Must(template.New("issuelist").Parse(`
 <h1>{{.TotalCount}} issues</h1>

@@ -11,7 +11,7 @@ import (
 	"os"
 	"sync"
 
-	"gopl.io/ch8/thumbnail"
+	"github.com/neo0801/gopl.io/ch8/thumbnail"
 )
 
 //!+1

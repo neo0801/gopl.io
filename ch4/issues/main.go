@@ -12,7 +12,7 @@ import (
 	"log"
 	"os"
 
-	"gopl.io/ch4/github"
+	"github.com/neo0801/gopl.io/ch4/github"
 )
 
 //!+

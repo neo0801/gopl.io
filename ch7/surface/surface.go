@@ -12,10 +12,9 @@ import (
 	"log"
 	"math"
 	"net/http"
-)
 
-//!+parseAndCheck
-import "gopl.io/ch7/eval"
+	"github.com/neo0801/gopl.io/ch7/eval"
+)
 
 //!-parseAndCheck
 
