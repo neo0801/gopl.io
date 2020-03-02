@@ -49,6 +49,18 @@ outer:
 	// NOTE: ignoring potential errors from input.Err()
 }
 
+func equal(x, y []string) bool {
+	if len(x) != len(y) {
+		return false
+	}
+	for i := range x {
+		if x[i] != y[i] {
+			return false
+		}
+	}
+	return true
+}
+
 //!+rev
 // reverse reverses a slice of ints in place.
 func reverse(s []int) {
